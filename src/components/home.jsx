@@ -7,7 +7,7 @@ import M from "../assets/Mlogo.png";
 import work from "../assets/work.webp";
 import work1 from "../assets/work1.webp";
 import work2 from "../assets/work2.webp";
-import logo from "../assets/logo1-.png"
+import logo from "../assets/logo1-.png";
 import Cares from "./cares";
 import {
   FaFacebookF,
@@ -60,7 +60,11 @@ export default function Home() {
     <div className="flex flex-col bg-[#f5f5f5]">
       {/* Header */}
       <header className="p-4 flex md:justify-start md:ml-20 flex-row items-center justify-center md:gap-4">
-        <img className="w-20 h-[72px] mb-2 md:mb-0" src={logo} alt="Logo Maya" />
+        <img
+          className="w-20 h-[72px] mb-2 md:mb-0"
+          src={logo}
+          alt="Logo Maya"
+        />
         <h2 className="text-xl font-semibold text-tertiary font-cursive ">
           Maya Beauty
         </h2>
@@ -173,15 +177,13 @@ export default function Home() {
               : "flex  px-0 w-full p-4"
           } `}
         >
-          <div className="bg-tertiary p-4 rounded-xl shadow text-center w-full">
-            <a
-              href="https://wa.me/33663111415"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex justify-center items-center text-black font-semibold"
-            >
-              Réserver
-            </a>
+          <div className="bg-tertiary p-4 rounded-xl shadow">
+            <PopupButton
+              url="https://calendly.com/lingibilel/15min"
+              rootElement={document.getElementById("root")}
+              text="Book Appointment"
+              className="w-full h-4 flex items-center justify-center text-center  text-black rounded-md"
+            />
           </div>
         </div>
       </div>
