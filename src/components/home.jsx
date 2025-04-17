@@ -7,6 +7,7 @@ import M from "../assets/Mlogo.png";
 import work from "../assets/work.webp";
 import work1 from "../assets/work1.webp";
 import work2 from "../assets/work2.webp";
+import logo from "../assets/logo1-.png"
 import Cares from "./cares";
 import {
   FaFacebookF,
@@ -15,7 +16,7 @@ import {
   FaTiktok,
   FaHeart,
 } from "react-icons/fa";
-
+import { PopupButton } from "react-calendly";
 export default function Home() {
   const images = [img1, img2, img3];
   const [index, setIndex] = useState(0);
@@ -59,8 +60,8 @@ export default function Home() {
     <div className="flex flex-col bg-[#f5f5f5]">
       {/* Header */}
       <header className="p-4 flex md:justify-start md:ml-20 flex-row items-center justify-center md:gap-4">
-        <img className="w-18 h-16 mb-2 md:mb-0" src={M} alt="Logo Maya" />
-        <h2 className="text-xl font-semibold text-tertiary font-cursive">
+        <img className="w-20 h-[72px] mb-2 md:mb-0" src={logo} alt="Logo Maya" />
+        <h2 className="text-xl font-semibold text-tertiary font-cursive ">
           Maya Beauty
         </h2>
       </header>
@@ -188,10 +189,15 @@ export default function Home() {
       {/* Desktop layout */}
       <div className="hidden md:flex flex-row flex-1 px-10">
         {/* Left column */}
-        <div className="flex-1 flex flex-col gap-4">
+        <div className="flex-1 flex flex-col gap-4 w-40">
           <div className="bg-white h-20 p-4 rounded-xl shadow flex items-center gap-4">
             <img className="w-18 h-16 rounded-xl-full" src={maya} alt="maya" />
             <h1 className="font-bold font-cursive">Maya Beauty_Esthétique</h1>
+          </div>
+          <div className="bg-white h-20 p-4 rounded-xl shadow flex items-center gap-4">
+            <div className="p-4">
+              {/* <InlineWidget url="https://calendly.com/yourname/15min" /> */}
+            </div>
           </div>
 
           <div className="bg-white rounded-xl shadow relative">
@@ -290,14 +296,12 @@ export default function Home() {
         {/* Right column */}
         <div className="flex-1 flex flex-col gap-4 ml-10">
           <div className="bg-tertiary p-4 rounded-xl shadow">
-            <a
-              href="https://wa.me/33663111415"
-              target="_blank"
-              rel="noopener noreferrer"
+            <PopupButton
+              url="https://calendly.com/lingibilel/15min"
+              rootElement={document.getElementById("root")}
+              text="Book Appointment"
               className="w-full h-4 flex items-center justify-center text-center  text-black rounded-md"
-            >
-              Réserver
-            </a>
+            />
           </div>
           <div className="bg-white p-4 rounded-xl shadow">
             <Cares />
