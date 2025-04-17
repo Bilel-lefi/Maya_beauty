@@ -4,8 +4,17 @@ import img1 from "../assets/local.webp";
 import img2 from "../assets/local1.webp";
 import img3 from "../assets/local2.webp";
 import M from "../assets/Mlogo.png";
+import work from "../assets/work.webp";
+import work1 from "../assets/work1.webp";
+import work2 from "../assets/work2.webp";
 import Cares from "./cares";
-import { FaFacebookF, FaWhatsapp, FaInstagram, FaTiktok } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaWhatsapp,
+  FaInstagram,
+  FaTiktok,
+  FaHeart,
+} from "react-icons/fa";
 
 export default function Home() {
   const images = [img1, img2, img3];
@@ -87,8 +96,10 @@ export default function Home() {
           <Cares />
         </div>
 
-        <div className="bg-white p-4 rounded-xl shadow font-serif">
-          <h2 className="text-lg font-semibold mb-2">Conditions</h2>
+        <div className="bg-white p-4 rounded-xl shadow ">
+          <h2 className="text-lg font-serif font-semibold mb-2">
+            Conditions :
+          </h2>
 
           <div className="border-t pt-2 flex items-center justify-between">
             <p>Réserver avec WhatsApp</p>
@@ -116,13 +127,50 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white p-4 rounded-xl shadow">04</div>
-        <div className="bg-white p-4 rounded-xl shadow">05</div>
+        <div className="bg-white p-4 rounded-xl shadow">
+          <h2 className="font-semibold mb-2 font-serif text-lg">
+            Maya's photos :
+          </h2>
+          <div className="flex space-x-4">
+            <img src={work} alt="Image 1" className="w-20 h-20 rounded-lg" />
+            <img src={work1} alt="Image 2" className="w-20 h-20 rounded-lg" />
+            <img src={work2} alt="Image 3" className="w-20 h-20 rounded-lg" />
+          </div>
+        </div>
+        <div className="bg-white p-4 rounded-xl shadow">
+          <h2 className="mb-4 font-serif font-semibold ">Reviews :</h2>
+
+          <div className="space-y-3">
+            <div className="flex justify-between items-center text-lg font-medium">
+              <span>Cleanliness</span>
+              <div className="flex items-center gap-1 text-[#ffc68a]">
+                <FaHeart />
+                <span className="text-black">5</span>
+              </div>
+            </div>
+            <div className="flex justify-between items-center text-lg font-medium">
+              <span>Quality</span>
+              <div className="flex items-center gap-1  text-[#ffc68a]">
+                <FaHeart />
+                <span className="text-black">5</span>
+              </div>
+            </div>
+            <div className="flex justify-between items-center text-lg font-medium">
+              <span>Punctuality</span>
+              <div className="flex items-center gap-1  text-[#ffc68a]">
+                <FaHeart />
+                <span className="text-black">5</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           ref={buttonRef}
-          className={`w-[90%] mx-auto ${
-            isFixed ? "fixed bottom-4 left-0 right-0" : "relative mt-4"
-          } z-50 transition-all duration-300`}
+          className={`w-full  p-4 mx-auto ${
+            isFixed
+              ? "fixed bottom-4 left-0 right-0 w-full"
+              : "flex  px-0 w-full p-4"
+          } `}
         >
           <div className="bg-tertiary p-4 rounded-xl shadow text-center w-full">
             <a
@@ -168,7 +216,7 @@ export default function Home() {
 
           <div className="bg-white p-4 rounded-xl shadow">
             <h2 className="text-lg font-semibold mb-2 font-serif">
-              Conditions
+              Conditions :
             </h2>
 
             <div className="border-t pt-2 flex items-center justify-between">
@@ -197,8 +245,46 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white p-4 rounded-xl shadow">04</div>
-          <div className="bg-white p-4 rounded-xl shadow">05</div>
+          <div className="bg-white p-4 rounded-xl shadow">
+            <h2 className="font-semibold mb-2 font-serif text-lg">
+              Maya's photos :
+            </h2>
+            <div className="flex space-x-4">
+              <img src={work} alt="Image 1" className="w-20 h-20 rounded-lg" />
+              <img src={work1} alt="Image 2" className="w-20 h-20 rounded-lg" />
+              <img src={work2} alt="Image 3" className="w-20 h-20 rounded-lg" />
+            </div>
+          </div>
+
+          <div className="bg-white p-4 rounded-xl shadow">
+            <h2 className=" font-semibold mb-4 font-serif text-lg">
+              Reviews :
+            </h2>
+
+            <div className="space-y-3">
+              <div className="flex justify-between items-center text-lg ">
+                <span>Cleanliness</span>
+                <div className="flex items-center gap-1 text-[#ffc68a]">
+                  <FaHeart />
+                  <span className="text-black ml-2">5</span>
+                </div>
+              </div>
+              <div className="flex justify-between items-center text-lg ">
+                <span>Quality</span>
+                <div className="flex items-center gap-1  text-[#ffc68a]">
+                  <FaHeart />
+                  <span className="text-black ml-2">5</span>
+                </div>
+              </div>
+              <div className="flex justify-between items-center text-lg ">
+                <span>Punctuality</span>
+                <div className="flex items-center gap-1  text-[#ffc68a]">
+                  <FaHeart />
+                  <span className="text-black ml-2">5</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Right column */}

@@ -13,7 +13,7 @@ const Cares = () => {
 
   return (
     <div className="p-2 font-sans">
-      <h2 className="text-2xl font-semibold mb-4">Cares</h2>
+      <h2 className="font-semibold mb-4 font-serif text-xl">Cares :</h2>
 
       {/* Filter Buttons */}
       <div className="mb-6 flex flex-wrap gap-3">

@@ -12,7 +12,8 @@ export default {
     fontFamily: {
       cursive: ["cursive"],
       comfortaa: ["Comfortaa"],
-      serif:["serif"],
+      serif: ["serif"],
+      cursive: ['"Dancing Script"', "cursive"],
     },
   },
   plugins: [],
