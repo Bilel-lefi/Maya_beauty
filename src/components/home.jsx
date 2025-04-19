@@ -3,7 +3,6 @@ import maya from "../assets/logo.jpg";
 import img1 from "../assets/local.webp";
 import img2 from "../assets/local1.webp";
 import img3 from "../assets/local2.webp";
-import M from "../assets/Mlogo.png";
 import work from "../assets/work.webp";
 import work1 from "../assets/work1.webp";
 import work2 from "../assets/work2.webp";
@@ -101,8 +100,8 @@ export default function Home() {
           <Cares />
         </div>
 
-        <div className="bg-white p-4 rounded-xl shadow ">
-          <h2 className="text-lg font-serif font-semibold mb-2">
+        <div className="bg-white p-4 rounded-xl shadow">
+          <h2 className="text-lg font-semibold mb-2 font-serif">
             Conditions :
           </h2>
 
@@ -112,29 +111,29 @@ export default function Home() {
           </div>
 
           <div className="border-t pt-2 flex items-center justify-between">
-            <p>Handicapped access</p>
+            <p>Accès handicapé</p>
             <span className="w-2 h-2 bg-red-500 rounded-full"></span>
           </div>
 
           <div className="border-t pt-2 flex items-center justify-between">
-            <p>Men allowed</p>
+            <p>Animaux autorisés</p>
             <span className="w-2 h-2 bg-red-500 rounded-full"></span>
           </div>
 
           <div className="border-t pt-2 flex items-center justify-between">
-            <p>Animals allowed</p>
+            <p>Hommes acceptés</p>
             <span className="w-2 h-2 bg-red-500 rounded-full"></span>
           </div>
 
           <div className="border-t pt-2 flex items-center justify-between">
-            <p>Infants allowed</p>
+            <p>Bébé sur place</p>
             <span className="w-2 h-2 bg-red-500 rounded-full"></span>
           </div>
         </div>
 
         <div className="bg-white p-4 rounded-xl shadow">
           <h2 className="font-semibold mb-2 font-serif text-lg">
-            Maya's photos :
+          Photos de Maya :
           </h2>
           <div className="flex space-x-4">
             <img src={work} alt="Image 1" className="w-20 h-20 rounded-lg" />
@@ -143,28 +142,28 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-white p-4 rounded-xl shadow">
-          <h2 className="mb-4 font-serif font-semibold ">Reviews :</h2>
+          <h2 className=" font-semibold mb-4 font-serif text-lg">Reviews :</h2>
 
           <div className="space-y-3">
-            <div className="flex justify-between items-center text-lg font-medium">
-              <span>Cleanliness</span>
+            <div className="flex justify-between items-center text-lg ">
+              <span>Propreté</span>
               <div className="flex items-center gap-1 text-[#ffc68a]">
                 <FaHeart />
-                <span className="text-black">5</span>
+                <span className="text-black ml-2">5</span>
               </div>
             </div>
-            <div className="flex justify-between items-center text-lg font-medium">
-              <span>Quality</span>
+            <div className="flex justify-between items-center text-lg ">
+              <span>Qualité du travail</span>
               <div className="flex items-center gap-1  text-[#ffc68a]">
                 <FaHeart />
-                <span className="text-black">5</span>
+                <span className="text-black ml-2">5</span>
               </div>
             </div>
-            <div className="flex justify-between items-center text-lg font-medium">
-              <span>Punctuality</span>
+            <div className="flex justify-between items-center text-lg ">
+              <span>Savoir être et ponctualité</span>
               <div className="flex items-center gap-1  text-[#ffc68a]">
                 <FaHeart />
-                <span className="text-black">5</span>
+                <span className="text-black ml-2">5</span>
               </div>
             </div>
           </div>
@@ -181,7 +180,7 @@ export default function Home() {
             <PopupButton
               url="https://calendly.com/lingibilel/15min"
               rootElement={document.getElementById("root")}
-              text="Book Appointment"
+              text="réserver"
               className="w-full h-4 flex items-center justify-center text-center  text-black rounded-md"
             />
           </div>
@@ -196,11 +195,11 @@ export default function Home() {
             <img className="w-18 h-16 rounded-xl-full" src={maya} alt="maya" />
             <h1 className="font-bold font-cursive">Maya Beauty_Esthétique</h1>
           </div>
-          <div className="bg-white h-20 p-4 rounded-xl shadow flex items-center gap-4">
+          {/* <div className="bg-white h-20 p-4 rounded-xl shadow flex items-center gap-4">
             <div className="p-4">
-              {/* <InlineWidget url="https://calendly.com/yourname/15min" /> */}
+              <InlineWidget url="https://calendly.com/yourname/15min" />
             </div>
-          </div>
+          </div> */}
 
           <div className="bg-white rounded-xl shadow relative">
             <img
@@ -233,29 +232,29 @@ export default function Home() {
             </div>
 
             <div className="border-t pt-2 flex items-center justify-between">
-              <p>Handicapped access</p>
+              <p>Accès handicapé</p>
               <span className="w-2 h-2 bg-red-500 rounded-full"></span>
             </div>
 
             <div className="border-t pt-2 flex items-center justify-between">
-              <p>Men allowed</p>
+              <p>Animaux autorisés</p>
               <span className="w-2 h-2 bg-red-500 rounded-full"></span>
             </div>
 
             <div className="border-t pt-2 flex items-center justify-between">
-              <p>Animals allowed</p>
+              <p>Hommes acceptés</p>
               <span className="w-2 h-2 bg-red-500 rounded-full"></span>
             </div>
 
             <div className="border-t pt-2 flex items-center justify-between">
-              <p>Infants allowed</p>
+              <p>Bébé sur place</p>
               <span className="w-2 h-2 bg-red-500 rounded-full"></span>
             </div>
           </div>
 
           <div className="bg-white p-4 rounded-xl shadow">
             <h2 className="font-semibold mb-2 font-serif text-lg">
-              Maya's photos :
+              Photos de Maya :
             </h2>
             <div className="flex space-x-4">
               <img src={work} alt="Image 1" className="w-20 h-20 rounded-lg" />
@@ -271,21 +270,21 @@ export default function Home() {
 
             <div className="space-y-3">
               <div className="flex justify-between items-center text-lg ">
-                <span>Cleanliness</span>
+                <span>Propreté</span>
                 <div className="flex items-center gap-1 text-[#ffc68a]">
                   <FaHeart />
                   <span className="text-black ml-2">5</span>
                 </div>
               </div>
               <div className="flex justify-between items-center text-lg ">
-                <span>Quality</span>
+                <span>Qualité du travail</span>
                 <div className="flex items-center gap-1  text-[#ffc68a]">
                   <FaHeart />
                   <span className="text-black ml-2">5</span>
                 </div>
               </div>
               <div className="flex justify-between items-center text-lg ">
-                <span>Punctuality</span>
+                <span>Savoir être et ponctualité</span>
                 <div className="flex items-center gap-1  text-[#ffc68a]">
                   <FaHeart />
                   <span className="text-black ml-2">5</span>
@@ -301,7 +300,7 @@ export default function Home() {
             <PopupButton
               url="https://calendly.com/lingibilel/15min"
               rootElement={document.getElementById("root")}
-              text="Book Appointment"
+              text="réserver"
               className="w-full h-4 flex items-center justify-center text-center  text-black rounded-md"
             />
           </div>
