@@ -5,7 +5,7 @@ const categories = [
   "Tout",
   "Beauté Du Regard",
   "Épilation définitive laser",
-  "Beauté Des Pieds",
+  "Beauté des mains et pieds",
   "Extension",
   "Maquillage permanent",
   "Épilation à la cire",
@@ -53,7 +53,7 @@ const Cares = () => {
                 alt={service.name}
                 className="w-12 h-12 object-cover rounded"
               />
-              <div className="text-base font-medium">{service.name}</div>
+              <div className="text-base">{service.name}</div>
             </div>
 
             {/* Partie droite : temps + prix */}
@@ -63,7 +63,7 @@ const Cares = () => {
                   {service.time}
                 </div>
               )}
-              <div className="w-12 flex-shrink-0 pl-2 under text-black">
+              <div className="w-12 flex-shrink-0 font-medium pl-2 under text-black">
                 {service.price}
               </div>
             </div>

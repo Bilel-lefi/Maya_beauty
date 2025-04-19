@@ -133,7 +133,7 @@ export default function Home() {
 
         <div className="bg-white p-4 rounded-xl shadow">
           <h2 className="font-semibold mb-2 font-serif text-lg">
-          Photos de Maya :
+            Photos de Maya :
           </h2>
           <div className="flex space-x-4">
             <img src={work} alt="Image 1" className="w-20 h-20 rounded-lg" />
@@ -172,16 +172,16 @@ export default function Home() {
           ref={buttonRef}
           className={`w-full  p-4 mx-auto ${
             isFixed
-              ? "fixed bottom-4 left-0 right-0 w-full"
-              : "flex  px-0 w-full p-4"
+              ? "fixed bottom-4 left-0 right-0 "
+              : "flex px-0 p-4"
           } `}
         >
-          <div className="bg-tertiary p-4 rounded-xl shadow">
+          <div className="bg-tertiary p-4 rounded-xl shadow w-full flex justify-center">
             <PopupButton
               url="https://calendly.com/lingibilel/15min"
               rootElement={document.getElementById("root")}
               text="réserver"
-              className="w-full h-4 flex items-center justify-center text-center  text-black rounded-md"
+              className=" h-4 flex items-center justify-center text-center  text-black rounded-md"
             />
           </div>
         </div>
