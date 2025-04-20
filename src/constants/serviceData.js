@@ -159,7 +159,7 @@ const servicesData = [
     image: tout,
     name: "Détatouage a partir de 50€",
     time: "30 min",
-    price:" 50 €",
+    price: " 50 €",
     category: "Maquillage permanent",
   },
   {
@@ -169,23 +169,10 @@ const servicesData = [
     price: "5 €",
     category: "Épilation à la cire",
   },
+
   {
     image: tout,
-    name: "Menton",
-    time: "10 min",
-    price: "10 €",
-    category: "Épilation à la cire",
-  },
-  {
-    image: tout,
-    name: "Sourcils",
-    time: "10 min",
-    price: "10 €",
-    category: "Épilation à la cire",
-  },
-  {
-    image: tout,
-    name: "Sourcils - Création de ligne",
+    name: "Sourcils - Création de ligne  à la pince ",
     time: "20 min",
     price: "10 €",
     category: "Épilation à la cire",
@@ -269,7 +256,7 @@ const servicesData = [
   },
   {
     image: tout,
-    name: "Remplissage des extensions de cils",
+    name: "Remplissage des extensions de cils a partir de 35€",
     time: "1 h 30 min",
     price: "35 €",
     category: "Extension",
