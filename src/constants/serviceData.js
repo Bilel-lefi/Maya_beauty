@@ -26,7 +26,7 @@ const servicesData = [
     image: tout,
     name: "Brow Lift",
     time: "1 h",
-    price: "30 €",
+    price: "35 €",
     category: "Beauté Du Regard",
   },
   {
@@ -301,13 +301,6 @@ const servicesData = [
     time: "1h 30min",
     price: "60 €",
     category: "Beauté Du Regard",
-  },
-  {
-    image: tout,
-    name: "Brow Lift",
-    time: "1h",
-    price: "35 €",
-    category: "Beauté Du RegardBeauté Du Regard",
   },
   {
     image: tout,
