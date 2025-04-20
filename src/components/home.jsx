@@ -171,9 +171,7 @@ export default function Home() {
         <div
           ref={buttonRef}
           className={`w-full  p-4 mx-auto ${
-            isFixed
-              ? "fixed bottom-4 left-0 right-0 "
-              : "flex px-0 p-4"
+            isFixed ? "fixed bottom-4 left-0 right-0 " : "flex px-0 p-4"
           } `}
         >
           <div className="bg-tertiary p-4 rounded-xl shadow w-full flex justify-center">
@@ -322,28 +320,21 @@ export default function Home() {
 
           <div className="flex gap-6 text-2xl">
             <a
-              href="#"
-              className="text-blue-600 hover:opacity-80 transition duration-300"
-              aria-label="Facebook"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="#"
+              href="https://wa.me/+330663111415"
               className="text-green-600 hover:opacity-80 transition duration-300"
               aria-label="WhatsApp"
             >
               <FaWhatsapp />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/mayaa_beauty91/#"
               className="text-pink-600 hover:opacity-80 transition duration-300"
               aria-label="Instagram"
             >
               <FaInstagram />
             </a>
             <a
-              href="#"
+              href="https://www.tiktok.com/@mayaa._beauty"
               className="text-black hover:opacity-80 transition duration-300"
               aria-label="TikTok"
             >
