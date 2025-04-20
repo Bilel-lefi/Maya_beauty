@@ -38,20 +38,6 @@ const servicesData = [
   },
   {
     image: tout,
-    name: "Extensions de cils « Pose volume russe » 7D",
-    time: "2h 30min",
-    price: "70 €",
-    category: "Extension",
-  },
-  {
-    image: tout,
-    name: "Extensions de cils « Pose volume russe » du 8D au 10D",
-    time: "2h 30min",
-    price: " 80 €",
-    category: "Extension",
-  },
-  {
-    image: tout,
     name: "Pose de vernis semi-permanent sur les pieds",
     time: "30 min ",
     price: " 30 €",
@@ -265,6 +251,20 @@ const servicesData = [
     name: "Extensions de cils « Pose 6D »",
     time: "2 h",
     price: "60 €",
+    category: "Extension",
+  },
+  {
+    image: tout,
+    name: "Extensions de cils « Pose volume russe » 7D",
+    time: "2h 30min",
+    price: "70 €",
+    category: "Extension",
+  },
+  {
+    image: tout,
+    name: "Extensions de cils « Pose volume russe » du 8D au 10D",
+    time: "2h 30min",
+    price: " 80 €",
     category: "Extension",
   },
   {
