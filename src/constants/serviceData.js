@@ -31,6 +31,13 @@ const servicesData = [
   },
   {
     image: tout,
+    name: "Brow Lift avec teinture ",
+    time: "1 h",
+    price: "60 €",
+    category: "Beauté Du Regard",
+  },
+  {
+    image: tout,
     name: "Teinture des cils",
     time: "20 min",
     price: "10 €",
