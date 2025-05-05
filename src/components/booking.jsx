@@ -4,7 +4,7 @@ const Booking = () => {
   return (
     <div className="p-4">
       <iframe
-        src="https://calendly.com/lingibilel/15min"
+        src="https://calendly.com/marwamaya664"
         width="100%"
         height="600"
         frameBorder="0"

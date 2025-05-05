@@ -3,9 +3,9 @@ import maya from "../assets/logo.jpg";
 import img1 from "../assets/local.webp";
 import img2 from "../assets/local1.webp";
 import img3 from "../assets/local2.webp";
-import salon2 from "../assets/salon2.jpg"
-import salon4 from "../assets/salon4.jpg"
-import salon5 from "../assets/salon5.jpg"
+import salon2 from "../assets/salon2.jpg";
+import salon4 from "../assets/salon4.jpg";
+import salon5 from "../assets/salon5.jpg";
 import work from "../assets/work.webp";
 import work1 from "../assets/work1.webp";
 import work2 from "../assets/work2.webp";
@@ -20,7 +20,7 @@ import {
 } from "react-icons/fa";
 import { PopupButton } from "react-calendly";
 export default function Home() {
-  const images = [img1,img2,img3,salon2,salon4, salon5];
+  const images = [img1, img2, img3, salon2, salon4, salon5];
   const [index, setIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -179,7 +179,7 @@ export default function Home() {
         >
           <div className="bg-tertiary p-4 rounded-xl shadow w-full flex justify-center">
             <PopupButton
-              url="https://calendly.com/lingibilel/15min"
+              url="https://calendly.com/marwamaya664"
               rootElement={document.getElementById("root")}
               text="réserver"
               className=" h-4 flex items-center justify-center text-center  text-black rounded-md"
@@ -299,7 +299,7 @@ export default function Home() {
         <div className="flex-1 flex flex-col gap-4 ml-10">
           <div className="bg-tertiary p-4 rounded-xl shadow">
             <PopupButton
-              url="https://calendly.com/lingibilel/15min"
+              url="https://calendly.com/marwamaya664"
               rootElement={document.getElementById("root")}
               text="réserver"
               className="w-full h-4 flex items-center justify-center text-center  text-black rounded-md"
