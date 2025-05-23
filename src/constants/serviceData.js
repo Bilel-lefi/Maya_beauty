@@ -19,7 +19,7 @@ const servicesData = [
     image: tout,
     name: "Restructuration des sourcils",
     time: "30min",
-    price: "20 €",
+    price: "15 €",
     category: "Beauté Du Regard",
   },
   {
@@ -40,7 +40,7 @@ const servicesData = [
     image: tout,
     name: "Teinture des cils",
     time: "20 min",
-    price: "10 €",
+    price: "20 €",
     category: "Beauté Du Regard",
   },
   {
@@ -310,20 +310,6 @@ const servicesData = [
     time: "1 h",
     price: "20 €",
     category: "Extension",
-  },
-  {
-    image: tout,
-    name: "Teinture des sourcils",
-    time: "30 min",
-    price: "15 €",
-    category: "Beauté Du Regard",
-  },
-  {
-    image: tout,
-    name: "Rehaussement de cils",
-    time: "1h",
-    price: "50 €",
-    category: "Beauté Du Regard",
   },
   {
     image: tout,
