@@ -19,14 +19,14 @@ const servicesData = [
     image: tout,
     name: "Restructuration des sourcils",
     time: "30min",
-    price: "10 €",
+    price: "20 €",
     category: "Beauté Du Regard",
   },
   {
     image: tout,
     name: "Brow Lift",
     time: "1 h",
-    price: "35 €",
+    price: "40 €",
     category: "Beauté Du Regard",
   },
   {
@@ -45,9 +45,9 @@ const servicesData = [
   },
   {
     image: tout,
-    name: "Pose de vernis semi-permanent sur les pieds",
+    name: "Spa mains et pose de vernis semi-permanent   ",
     time: "30 min ",
-    price: " 30 €",
+    price: " 50 €",
     category: "Beauté des mains et pieds",
   },
   {
@@ -73,11 +73,47 @@ const servicesData = [
   },
   {
     image: tout,
-    name: "Limage et pose de vernis sur les pieds",
+    name: "Limage et pose de vernis sur les pied",
     time: "30min",
     price: " 30 €",
     category: "Beauté des mains et pieds",
   },
+  {
+    image: tout,
+    name: "Pose Popit en gel +vernis semi permanent",
+    time: "30min",
+    price: " 50 €",
+    category: "Beauté des mains et pieds",
+  },
+  {
+    image: tout,
+    name: "Pose Popit gel + French",
+    time: "30min",
+    price: " 50 €",
+    category: "Beauté des mains et pieds",
+  },
+  {
+    image: tout,
+    name: "Spa des mains",
+    time: "30min",
+    price: " 20 €",
+    category: "Beauté des mains et pieds",
+  },
+  {
+    image: tout,
+    name: "Dépose de vernis semi permanent et nouvelle pose",
+    time: "30min",
+    price: " 30 €",
+    category: "Beauté des mains et pieds",
+  },
+  {
+    image: tout,
+    name: "Renfoncement gel+ semi-permanent.",
+    time: "30min",
+    price: " 40 €",
+    category: "Beauté des mains et pieds",
+  },
+
   {
     image: tout,
     name: "Beauté des pieds et pose de vernis semi-permanent",
